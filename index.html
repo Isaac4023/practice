@@ -9,16 +9,51 @@
     <header
     <h1>Bienvenidos a mi blog</h1>
         <nav>
-        <a href="index.html">Inicio</a>
-        <a href="about.html">Acerca de</a>
-        <a href="contact.html">Contacto</a>
+        <a href="#Inicio">Inicio</a>
+        <a href="#sobre-mi">Acerca de</a>
+        <a href="#Contacto">Contacto</a>
     </nav>
     </header>
     <main id="Inicio">
         <article>
             <h2>Mi Nombre es Manuel Isaac Delgado López</h2>
             <p>Soy el <em>estudiante</em> mas guapo de <strong>Dev.f</strong></p>
+            <img src="./src/images/yo.jpg" alt="Fotografia de Manuel Isaac Delgado López">
         </article> 
     </main>
+    <div id ="sobre-mi">
+        <h2>Sobre mi</h2>
+        <p>Me gusta estudiar y aprender cada vez mas sobre la tecnologia y el dezarrollo web, trabajo en un bar donde disfruto hacer bebidas que yo mimo he creado, me gusta el rock y el rap</p>
+        <p>Mis pasatiempos favoritos son:</p> 
+        <ul>
+            <li>Escuchar musica</li>
+            <li>Ver peliculas</li>
+            <li>Salir con mis amigos</li>
+            <li>Jugar videojuegos</li> 
+        </ul>
+        <p>Mis redes sociales son:</p>
+        <ol>
+            <li><a href="https://www.instagram.com/isaac_delgado_/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/isaac.delgado.7543">Facebook</a></li>
+            <li><a href="https://twitter.com/IsaacDelgadoL1">Twitter <samp>:D</samp></a></li>   
+        </ol>
+    </div>
+    <div id="Contacto">
+        <form action="#" mrthod="post">
+            <h2>Contacto</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer>Pagina de contacto Manuel Isaac Delgado 2025</footer>
 </body>
 </html>
