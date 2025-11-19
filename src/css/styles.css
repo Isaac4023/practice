@@ -1,0 +1,13 @@
+body{
+    background-color: lightblue;
+}
+main.start {
+    font-family: Arial, sans-serif;
+    color: darkblue;
+    padding: 20px;
+}
+img {
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+}
