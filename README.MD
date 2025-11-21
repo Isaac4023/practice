@@ -16,7 +16,7 @@ Este proyecto es una página web personal tipo "Portfolio/Blog" desarrollada com
 * **CSS3:** Estilizado visual (vinculado a `src/css/styles.css`).
 
 ##  Tecnologías Utilizadas
-* **En unfuturo me gustaria agregar un diseño mas vistoso visualmente ademas de agregar mas campos acerca de mi experiencia laboral y escolar 
+* En unfuturo me gustaria agregar un diseño mas vistoso visualmente ademas de agregar mas campos acerca de mi experiencia laboral y escolar 
 
 ##  Estructura del Proyecto
 
